@@ -113,7 +113,7 @@ option('cfi_debug', type: 'boolean', value: false,
        description: 'Verbose errors in case of CFI violation')
 option('multiprocess', type: 'feature', value: 'auto',
        description: 'Out of process device emulation support')
-option('renderdoc', type: 'feature', value: 'auto',
+option('renderdoc', type: 'feature', value: 'enabled',
        description: 'RenderDoc frame capture support')
 option('relocatable', type : 'boolean', value : true,
        description: 'toggle relocatable install')
